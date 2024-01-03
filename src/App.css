@@ -1,0 +1,112 @@
+.nav-ul{
+ margin: 0px;
+ padding: 10px; 
+  background-color: skyblue;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+.nav-ul li a{
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: skyblue;
+  width: 100%;
+}
+
+.register, .center{
+  position: absolute;
+  left: 35%;
+}
+
+.login{
+  position: absolute;
+  left: 35%;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 50%;
+  float: left;
+  margin: 10px;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+input.inputBox {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+button.submitButton {
+  padding: 10px;
+  width: 20%;
+  margin: 10px;
+  background: skyblue;
+}
+
+.invalid{
+    color: red;
+    margin-left: 10px;
+    display: block;
+    margin-top: -8px;
+}
+
+.table{
+  border: 1px solid;
+}
+
+.table td{
+  width: 20%;
+  border: 1px solid;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
